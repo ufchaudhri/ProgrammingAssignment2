@@ -1,6 +1,6 @@
-## function returns the inverse of a matrix. 
-## Before calculating the inverse it first checks if the inverse in in cache
-## if it exists then the cache inverse is returned
+## comment made by Umar Chaudhri 06/22/2014
+## creates a special "vector", which is a list containing several functions
+
 
 makeCacheMatrix <- function(x = matrix()) {
 	m<-NULL
@@ -17,6 +17,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
+
+## comment made by Umar Chaudhri 06/22/2014
+## function returns the inverse of a matrix. 
+## Before calculating the inverse it first checks if the inverse in in cache
+## if it exists then the cache inverse is returned
 
 cachesolve <- function(x, ...) {
         m <- x$getsolve()
